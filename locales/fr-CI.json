@@ -1,0 +1,13 @@
+{
+  "page.title": "Prendre rendez-vous",
+  "clinic.label": "Clinique",
+  "service.consultation": "Consultation générale",
+  "service.labTest": "Analyse de sang",
+  "service.vaccination": "Vaccination",
+  "slots.heading": "Créneaux disponibles",
+  "slotsLeft.one": "{count} créneau restant",
+  "slotsLeft.other": "{count} créneaux restants",
+  "name.label": "Votre nom",
+  "button.book": "Confirmer le rendez-vous",
+  "confirm.message": "Merci, {name} ! Votre rendez-vous du {date} est confirmé."
+}
