@@ -1,0 +1,13 @@
+{
+  "page.title": "Book an appointment",
+  "clinic.label": "Clinic",
+  "service.consultation": "General consultation",
+  "service.labTest": "Blood test",
+  "service.vaccination": "Vaccination",
+  "slots.heading": "Available times",
+  "slotsLeft.one": "{count} slot left",
+  "slotsLeft.other": "{count} slots left",
+  "name.label": "Your name",
+  "button.book": "Book appointment",
+  "confirm.message": "Thank you, {name}! Your appointment on {date} is confirmed."
+}
