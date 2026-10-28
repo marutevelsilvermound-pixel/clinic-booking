@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +8,16 @@
 </head>
 <body>
   <main class="card">
-    <h1>Book an appointment</h1>
-    <label for="clinic">Clinic</label>
+    <h1 data-i18n="page.title"></h1>
+    <label for="clinic" data-i18n="clinic.label"></label>
     <select id="clinic"></select>
     <ul id="services"></ul>
-    <h2>Available times</h2>
+    <h2 data-i18n="slots.heading"></h2>
     <ul id="slots"></ul>
-    <div class="row"><input id="name" placeholder="Your name"><button id="book">Book appointment</button></div>
+    <div class="row">
+      <input id="name" data-i18n-placeholder="name.label">
+      <button id="book" data-i18n="button.book"></button>
+    </div>
     <p id="confirm"></p>
   </main>
   <script src="app.js"></script>
